@@ -1,0 +1,36 @@
+EURO BITES STATIC WEBSITE PACKAGE
+Generated: 10 August 2026
+
+PACKAGE CONTENTS
+- Five static pages: Home, Menu, Gallery, Contact and Reviews
+- All required CSS, JavaScript, images, gallery assets and PDFs
+- CNAME for eurobites.com.au
+- .nojekyll for direct static publishing
+- robots.txt, sitemap.xml and a custom 404 page
+- No PHP, database configuration, server logs or hidden SSH files
+
+GITHUB PAGES DEPLOYMENT
+1. Create a new GitHub repository.
+2. Extract this ZIP.
+3. Upload the extracted CONTENTS to the repository root. index.html must be at
+   the repository root, not inside another folder.
+4. In the repository, open Settings > Pages.
+5. Under Build and deployment, select Deploy from a branch.
+6. Select the main branch and /(root), then save.
+7. In Custom domain, enter eurobites.com.au.
+8. Wait for the temporary github.io site to build and test every page before
+   changing Cloudflare DNS.
+9. Follow GitHub's current custom-domain DNS instructions at cutover time and
+   enable Enforce HTTPS after the certificate is ready.
+
+IMPORTANT
+GitHub's current Pages terms state that Pages is not intended or allowed as
+free hosting for running an online business. This package is technically
+compatible with GitHub Pages, but Cloudflare Pages or another commercial-safe
+static host is recommended for the restaurant's production website.
+
+The included CNAME file contains only:
+eurobites.com.au
+
+If deploying under a temporary repository URL without the custom domain,
+remove CNAME until you are ready to configure the domain.

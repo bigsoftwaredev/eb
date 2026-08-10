@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eurobites.com.au/sitemap.xml
